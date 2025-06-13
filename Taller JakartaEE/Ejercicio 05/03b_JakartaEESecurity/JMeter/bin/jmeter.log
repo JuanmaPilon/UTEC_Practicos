@@ -1,0 +1,567 @@
+2024-04-29 15:15:59,817 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2024-04-29 15:15:59,844 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2024-04-29 15:15:59,844 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2024-04-29 15:15:59,849 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2024-04-29 15:15:59,850 INFO o.a.j.JMeter: Version 5.6.3
+2024-04-29 15:15:59,850 INFO o.a.j.JMeter: java.version=11.0.22
+2024-04-29 15:15:59,850 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2024-04-29 15:15:59,850 INFO o.a.j.JMeter: os.name=Linux
+2024-04-29 15:15:59,850 INFO o.a.j.JMeter: os.arch=amd64
+2024-04-29 15:15:59,850 INFO o.a.j.JMeter: os.version=6.5.0-28-generic
+2024-04-29 15:15:59,850 INFO o.a.j.JMeter: file.encoding=UTF-8
+2024-04-29 15:15:59,850 INFO o.a.j.JMeter: java.awt.headless=null
+2024-04-29 15:15:59,850 INFO o.a.j.JMeter: Max memory     =1073741824
+2024-04-29 15:15:59,850 INFO o.a.j.JMeter: Available Processors =6
+2024-04-29 15:15:59,859 INFO o.a.j.JMeter: Default Locale=English (EN)
+2024-04-29 15:15:59,859 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2024-04-29 15:15:59,859 INFO o.a.j.JMeter: JMeterHome=/home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter
+2024-04-29 15:15:59,860 INFO o.a.j.JMeter: user.dir  =/home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/bin
+2024-04-29 15:15:59,860 INFO o.a.j.JMeter: PWD       =/home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/bin
+2024-04-29 15:15:59,860 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: Artorias FullName: Artorias.myguest.virtualbox.org
+2024-04-29 15:15:59,876 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2024-04-29 15:16:00,172 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2024-04-29 15:16:01,250 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/citrix-jmeter-0.7.7.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:01,715 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:01,724 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-fifo-0.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:01,728 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-ffw-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:01,729 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-bzm-hls-3.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:01,745 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-casutg-2.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:01,756 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:01,758 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-graphs-additional-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:01,761 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-bzm-http2-2.0.5.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:01,776 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-bzm-rte-3.3.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:01,808 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-functions-2.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:01,812 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-bzm-correlation-recorder-2.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:01,877 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-tst-2.6.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:01,879 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/bzm-repositories-plugin-1.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:01,890 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:01,984 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-senseuploader-3.5.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:01,993 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-debugger-0.6.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:02,008 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-graphs-basic-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:02,070 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/citrix-jmeter-0.7.7.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:02,077 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:02,078 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-fifo-0.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:02,079 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-ffw-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:02,079 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-bzm-hls-3.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:02,080 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-casutg-2.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:02,080 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:02,081 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-graphs-additional-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:02,081 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-bzm-http2-2.0.5.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:02,082 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-bzm-rte-3.3.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:02,083 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-functions-2.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:02,083 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-bzm-correlation-recorder-2.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:02,085 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-tst-2.6.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:02,085 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/bzm-repositories-plugin-1.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:02,085 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:02,086 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-senseuploader-3.5.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:02,087 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-debugger-0.6.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:02,087 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-graphs-basic-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:16:02,172 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=linux-ffe65f3f5ee660be4332c16ed28e9f34-gui
+2024-04-29 15:16:04,426 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=2.0, jpgc-graphs-additional=2.0, bzm-jmeter-citrix-plugin=0.7.7, bzm-siebel=2.4, bzm-hls=3.1, bzm-http2-legacy=2.0.5, bzm-http2=2.0.5, bzm-rte=3.3, bzm-repositories=1.2, blazemeter-debugger=0.6, jpgc-sense=3.5, jpgc-functions=2.2, jpgc-casutg=2.10, jpgc-dummy=0.4, jpgc-ffw=2.0, jpgc-fifo=0.2, jpgc-perfmon=2.1, jpgc-plugins-manager=1.10, jpgc-tst=2.6, jmeter-core=5.6.3, jmeter-ftp=5.6.3, jmeter-http=5.6.3, jmeter-jdbc=5.6.3, jmeter-jms=5.6.3, jmeter-junit=5.6.3, jmeter-java=5.6.3, jmeter-ldap=5.6.3, jmeter-mail=5.6.3, jmeter-mongodb=5.6.3, jmeter-native=5.6.3, jmeter-tcp=5.6.3, jmeter-components=5.6.3, jpgc-standard=2.0]
+2024-04-29 15:16:05,245 WARN c.b.j.c.u.CitrixUtils: ERROR! Resource string not found: [when_the_application_starts,_press_the_button]
+2024-04-29 15:16:05,284 INFO c.b.j.c.r.g.TemplateUpdater: Checking if we need to refresh XML template file /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/bin/templates/bzmCitrixTemplate.xml
+2024-04-29 15:16:05,286 INFO c.b.j.c.r.g.TemplateUpdater: Checking if we need to refresh JMX template file /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/bin/templates/citrixRecordingTemplate.jmx
+2024-04-29 15:16:05,289 INFO o.a.j.g.a.t.TemplateManager: Reading templates from: /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/bin/templates/templates.xml
+2024-04-29 15:16:05,304 INFO c.b.j.c.r.g.TemplateUpdater: Registering template Template [isTestPlan=true, name=BlazeMeter Citrix Recording, fileName=/bin/templates/citrixRecordingTemplate.jmx, description=
+        <h1>Template you can use to record a Citrix application called through ICA Client</h1>
+        <p>This template is provided by Citrix Plugin which allows load testing Citrix Applications.<br/>
+        Ensure you read Pre-requisites and User Manual before using the plugin. See <b>Useful links</b> below.
+        Once the new plan is created update configuration properties on the Citrix Recorder element.
+        </p>
+        <h2>Useful links</h2>
+            <ul>
+                <li><a href="https://github.com/Blazemeter/CitrixPlugin/blob/master/PRE_REQUISITES.md" >Pre-requisites</a></li>
+                <li><a href="https://github.com/Blazemeter/CitrixPlugin/blob/master/SETUP.md" >Setup</a></li>
+                <li><a href="https://github.com/Blazemeter/CitrixPlugin/blob/master/README.md" >User manual</a></li>
+                <li><a href="https://github.com/Blazemeter/CitrixPlugin/blob/master/TROUBLESHOOTING.md" >Troubleshooting</a></li>
+            </ul>
+        , parameters=null]
+2024-04-29 15:16:05,383 INFO c.b.j.c.c.t.LocalConfiguration: Installing default files
+2024-04-29 15:16:05,391 INFO c.b.j.c.c.t.LocalConfiguration: bzm - Correlation Recorder Test Plan Template installed
+2024-04-29 15:16:05,393 INFO c.b.j.c.c.t.LocalConfiguration: Siebel Correlation's Template installed
+2024-04-29 15:16:05,393 INFO c.b.j.c.c.t.LocalConfiguration: correlation.properties file loaded
+2024-04-29 15:16:05,571 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2024-04-29 15:16:05,572 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/bin/proxyserver.jks
+2024-04-29 15:16:05,823 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-04-29 15:16:05,838 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-04-29 15:16:05,840 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-04-29 15:16:05,854 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-29 15:16:05,854 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-29 15:16:05,854 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-29 15:16:05,854 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-04-29 15:16:05,854 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-04-29 15:16:05,854 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-04-29 15:16:05,909 WARN c.b.j.r.r.RTETemplateRepository: Problem creating RTE recording template RteRecordingTemplate.jmx
+java.io.FileNotFoundException: /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio%2005/03b_JakartaEESecurity/JMeter/bin/templates/RteRecordingTemplate.jmx (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298) ~[?:?]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237) ~[?:?]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187) ~[?:?]
+	at java.base/java.io.FileWriter.<init>(FileWriter.java:96) ~[?:?]
+	at com.blazemeter.jmeter.rte.recorder.RTETemplateRepository.createRTETemplate(RTETemplateRepository.java:36) ~[jmeter-bzm-rte-3.3.jar:?]
+	at com.blazemeter.jmeter.rte.recorder.RTETemplateRepository.addRTETemplate(RTETemplateRepository.java:28) ~[jmeter-bzm-rte-3.3.jar:?]
+	at com.blazemeter.jmeter.rte.recorder.RTERecorderGui.<init>(RTERecorderGui.java:37) ~[jmeter-bzm-rte-3.3.jar:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[?:?]
+	at org.apache.jmeter.gui.util.MenuFactory.getGUIComponent(MenuFactory.java:215) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.util.MenuFactory.initializeMenus(MenuFactory.java:159) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.util.MenuFactory.<clinit>(MenuFactory.java:108) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.control.gui.TestPlanGui.createPopupMenu(TestPlanGui.java:109) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.tree.JMeterTreeNode.createPopupMenu(JMeterTreeNode.java:184) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.action.EditCommand.doAction(EditCommand.java:49) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:83) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:65) ~[ApacheJMeter_core.jar:5.6.3]
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313) ~[?:?]
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770) ~[?:?]
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721) ~[?:?]
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) ~[?:?]
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740) ~[?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:117) ~[?:?]
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190) ~[?:?]
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235) ~[?:?]
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at java.desktop/java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233) ~[?:?]
+	at java.desktop/java.awt.Dialog.show(Dialog.java:1070) ~[?:?]
+	at java.desktop/java.awt.Component.show(Component.java:1716) ~[?:?]
+	at java.desktop/java.awt.Component.setVisible(Component.java:1663) ~[?:?]
+	at java.desktop/java.awt.Window.setVisible(Window.java:1031) ~[?:?]
+	at java.desktop/java.awt.Dialog.setVisible(Dialog.java:1005) ~[?:?]
+	at org.apache.jmeter.SplashScreen.lambda$showScreen$0(SplashScreen.java:95) ~[ApacheJMeter_core.jar:5.6.3]
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313) [?:?]
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770) [?:?]
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721) [?:?]
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715) [?:?]
+	at java.base/java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) [?:?]
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+2024-04-29 15:16:05,915 WARN c.b.j.r.r.RTETemplateRepository: Problem adding RTE recording template description /RteRecordingTemplateDescription.xml
+java.nio.file.NoSuchFileException: /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio%2005/03b_JakartaEESecurity/JMeter/bin/templates/templates.xml
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:182) ~[?:?]
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:292) ~[?:?]
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:345) ~[?:?]
+	at java.base/java.nio.file.Files.lines(Files.java:4038) ~[?:?]
+	at java.base/java.nio.file.Files.lines(Files.java:4130) ~[?:?]
+	at com.blazemeter.jmeter.rte.recorder.RTETemplateRepository.checkIfTemplateAlreadyExists(RTETemplateRepository.java:76) ~[jmeter-bzm-rte-3.3.jar:?]
+	at com.blazemeter.jmeter.rte.recorder.RTETemplateRepository.addTemplateDescription(RTETemplateRepository.java:54) ~[jmeter-bzm-rte-3.3.jar:?]
+	at com.blazemeter.jmeter.rte.recorder.RTETemplateRepository.addRTETemplate(RTETemplateRepository.java:29) ~[jmeter-bzm-rte-3.3.jar:?]
+	at com.blazemeter.jmeter.rte.recorder.RTERecorderGui.<init>(RTERecorderGui.java:37) ~[jmeter-bzm-rte-3.3.jar:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[?:?]
+	at org.apache.jmeter.gui.util.MenuFactory.getGUIComponent(MenuFactory.java:215) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.util.MenuFactory.initializeMenus(MenuFactory.java:159) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.util.MenuFactory.<clinit>(MenuFactory.java:108) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.control.gui.TestPlanGui.createPopupMenu(TestPlanGui.java:109) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.tree.JMeterTreeNode.createPopupMenu(JMeterTreeNode.java:184) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.action.EditCommand.doAction(EditCommand.java:49) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:83) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:65) ~[ApacheJMeter_core.jar:5.6.3]
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313) ~[?:?]
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770) ~[?:?]
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721) ~[?:?]
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) ~[?:?]
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740) ~[?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:117) ~[?:?]
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190) ~[?:?]
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235) ~[?:?]
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at java.desktop/java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233) ~[?:?]
+	at java.desktop/java.awt.Dialog.show(Dialog.java:1070) ~[?:?]
+	at java.desktop/java.awt.Component.show(Component.java:1716) ~[?:?]
+	at java.desktop/java.awt.Component.setVisible(Component.java:1663) ~[?:?]
+	at java.desktop/java.awt.Window.setVisible(Window.java:1031) ~[?:?]
+	at java.desktop/java.awt.Dialog.setVisible(Dialog.java:1005) ~[?:?]
+	at org.apache.jmeter.SplashScreen.lambda$showScreen$0(SplashScreen.java:95) ~[ApacheJMeter_core.jar:5.6.3]
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313) [?:?]
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770) [?:?]
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721) [?:?]
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715) [?:?]
+	at java.base/java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) [?:?]
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+2024-04-29 15:19:20,888 INFO o.a.j.s.FileServer: Default base='/home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/bin'
+2024-04-29 15:19:20,890 INFO o.a.j.g.a.Load: Loading file: /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter Test/backups/PruebasRateLimiter-000001.jmx
+2024-04-29 15:19:20,891 INFO o.a.j.s.FileServer: Set new base='/home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter Test/backups'
+2024-04-29 15:19:20,891 INFO o.a.j.s.SaveService: Loading file: /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter Test/backups/PruebasRateLimiter-000001.jmx
+2024-04-29 15:19:21,042 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2024-04-29 15:19:21,042 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2024-04-29 15:19:21,250 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/citrix-jmeter-0.7.7.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:19:21,257 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:19:21,257 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-fifo-0.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:19:21,257 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-ffw-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:19:21,257 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-bzm-hls-3.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:19:21,258 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-casutg-2.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:19:21,258 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:19:21,258 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-graphs-additional-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:19:21,258 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-bzm-http2-2.0.5.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:19:21,259 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-bzm-rte-3.3.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:19:21,259 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-functions-2.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:19:21,260 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-bzm-correlation-recorder-2.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:19:21,261 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-tst-2.6.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:19:21,261 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/bzm-repositories-plugin-1.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:19:21,261 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:19:21,262 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-senseuploader-3.5.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:19:21,262 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-debugger-0.6.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:19:21,263 INFO o.a.j.r.ClassFinder: Will scan jar /home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter/lib/ext/jmeter-plugins-graphs-basic-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-04-29 15:19:21,364 INFO o.a.j.s.FileServer: Set new base='/home/artorias/Desktop/Programming/JavaEE___Practices/Ejercicio 05/03b_JakartaEESecurity/JMeter Test/backups'
+2024-04-29 15:19:25,194 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-04-29 15:19:25,195 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-04-29 15:19:25,195 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-04-29 15:19:25,198 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-04-29 15:19:25,258 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : bzm - Arrivals Thread Group
+2024-04-29 15:19:25,258 INFO o.a.j.e.StandardJMeterEngine: Starting 0 threads for group bzm - Arrivals Thread Group.
+2024-04-29 15:19:25,258 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-04-29 15:19:25,263 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:19:25,265 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-04-29 15:19:25,265 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2024-04-29 15:19:25,265 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-04-29 15:19:25,265 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-04-29 15:19:25,268 INFO c.b.j.t.a.ArrivalsThreadGroup: Got first arrival
+2024-04-29 15:19:25,268 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-04-29 15:19:25,270 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = Artorias
+2024-04-29 15:19:25,275 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2024-04-29 15:19:25,767 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:19:26,263 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:19:26,767 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2024-04-29 15:19:26,768 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2024-04-29 15:19:29,762 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:19:31,638 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:19:33,362 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-6
+2024-04-29 15:20:05,296 INFO c.b.j.t.a.ArrivalsThreadStarter: Duration limit reached, no more arrivals needed, had arrivals: 360
+2024-04-29 15:20:05,525 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:20:05,525 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:20:05,526 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:20:05,526 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:20:05,622 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:20:05,622 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:20:05,691 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:20:05,691 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:20:05,692 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-04-29 15:20:05,692 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:20:05,692 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:20:05,693 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-6
+2024-04-29 15:20:05,693 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-6
+2024-04-29 15:20:05,696 INFO c.b.j.t.a.ArrivalsThreadGroup: Done 360 arrivals, 356 completions, 0 abandonments
+2024-04-29 15:20:05,697 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-04-29 15:20:10,594 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-04-29 15:20:10,594 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-04-29 15:20:10,595 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-04-29 15:20:10,651 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : bzm - Arrivals Thread Group
+2024-04-29 15:20:10,651 INFO o.a.j.e.StandardJMeterEngine: Starting 0 threads for group bzm - Arrivals Thread Group.
+2024-04-29 15:20:10,651 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-04-29 15:20:10,653 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:20:10,655 INFO c.b.j.t.a.ArrivalsThreadGroup: Got first arrival
+2024-04-29 15:20:10,655 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-04-29 15:20:11,173 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:20:13,172 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:20:15,153 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:20:17,097 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:20:50,663 INFO c.b.j.t.a.ArrivalsThreadStarter: Duration limit reached, no more arrivals needed, had arrivals: 360
+2024-04-29 15:20:55,663 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-04-29 15:20:55,664 INFO c.b.j.t.a.ArrivalsThreadGroup: Done 330 arrivals, 329 completions, 0 abandonments
+2024-04-29 15:20:55,664 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:20:55,664 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:20:55,664 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:20:55,664 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:20:55,664 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:20:55,664 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-04-29 15:20:55,664 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:20:55,664 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:20:55,664 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:20:55,664 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:20:55,664 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:24:47,823 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-04-29 15:24:47,824 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-04-29 15:24:47,824 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-04-29 15:24:47,874 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : bzm - Arrivals Thread Group
+2024-04-29 15:24:47,874 INFO o.a.j.e.StandardJMeterEngine: Starting 0 threads for group bzm - Arrivals Thread Group.
+2024-04-29 15:24:47,874 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-04-29 15:24:47,876 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:24:47,876 INFO c.b.j.t.a.ArrivalsThreadGroup: Got first arrival
+2024-04-29 15:24:47,876 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-04-29 15:24:48,376 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:24:50,379 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:24:52,376 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:24:54,253 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:25:27,876 INFO c.b.j.t.a.ArrivalsThreadStarter: Duration limit reached, no more arrivals needed, had arrivals: 360
+2024-04-29 15:25:27,992 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-04-29 15:25:27,993 INFO c.b.j.t.a.ArrivalsThreadGroup: Done 328 arrivals, 327 completions, 0 abandonments
+2024-04-29 15:25:27,993 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:25:27,993 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:25:27,993 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:25:27,994 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:25:27,994 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:25:27,994 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-04-29 15:25:27,993 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:25:27,993 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:25:27,994 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:25:27,994 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:25:27,994 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:25:47,153 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-04-29 15:25:47,153 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-04-29 15:25:47,154 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-04-29 15:25:47,206 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : bzm - Arrivals Thread Group
+2024-04-29 15:25:47,206 INFO o.a.j.e.StandardJMeterEngine: Starting 0 threads for group bzm - Arrivals Thread Group.
+2024-04-29 15:25:47,206 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-04-29 15:25:47,207 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:25:47,208 INFO c.b.j.t.a.ArrivalsThreadGroup: Got first arrival
+2024-04-29 15:25:47,208 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-04-29 15:25:48,208 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:25:49,710 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:25:51,743 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:25:53,709 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:26:27,209 INFO c.b.j.t.a.ArrivalsThreadStarter: Duration limit reached, no more arrivals needed, had arrivals: 360
+2024-04-29 15:26:32,383 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-04-29 15:26:32,383 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:26:32,383 INFO c.b.j.t.a.ArrivalsThreadGroup: Done 331 arrivals, 329 completions, 0 abandonments
+2024-04-29 15:26:32,383 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:26:32,383 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:26:32,383 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:26:32,383 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-04-29 15:26:32,384 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:26:32,383 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:26:32,383 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:26:32,384 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:26:32,384 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:26:32,384 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:31:54,412 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-04-29 15:31:54,413 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-04-29 15:31:54,413 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-04-29 15:31:54,463 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : bzm - Arrivals Thread Group
+2024-04-29 15:31:54,464 INFO o.a.j.e.StandardJMeterEngine: Starting 0 threads for group bzm - Arrivals Thread Group.
+2024-04-29 15:31:54,464 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-04-29 15:31:54,465 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:31:54,465 INFO c.b.j.t.a.ArrivalsThreadGroup: Got first arrival
+2024-04-29 15:31:54,465 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-04-29 15:31:54,974 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:31:57,012 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:31:58,991 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:32:00,977 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:32:34,465 INFO c.b.j.t.a.ArrivalsThreadStarter: Duration limit reached, no more arrivals needed, had arrivals: 360
+2024-04-29 15:32:39,501 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-04-29 15:32:39,501 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:32:39,501 INFO c.b.j.t.a.ArrivalsThreadGroup: Done 331 arrivals, 328 completions, 0 abandonments
+2024-04-29 15:32:39,501 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:32:39,502 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:32:39,502 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:32:39,501 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:32:39,501 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:32:39,501 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:32:39,502 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:32:39,502 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:32:39,502 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:32:39,503 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-04-29 15:33:55,664 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-04-29 15:33:55,665 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-04-29 15:33:55,665 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-04-29 15:33:55,714 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : bzm - Arrivals Thread Group
+2024-04-29 15:33:55,715 INFO o.a.j.e.StandardJMeterEngine: Starting 0 threads for group bzm - Arrivals Thread Group.
+2024-04-29 15:33:55,715 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-04-29 15:33:55,716 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:33:55,716 INFO c.b.j.t.a.ArrivalsThreadGroup: Got first arrival
+2024-04-29 15:33:55,716 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-04-29 15:33:56,217 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:33:58,218 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:34:00,217 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:34:02,220 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:34:35,748 INFO c.b.j.t.a.ArrivalsThreadStarter: Duration limit reached, no more arrivals needed, had arrivals: 360
+2024-04-29 15:34:35,931 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-04-29 15:34:35,931 INFO c.b.j.t.a.ArrivalsThreadGroup: Done 333 arrivals, 330 completions, 0 abandonments
+2024-04-29 15:34:35,931 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:34:35,931 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:34:35,931 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:34:35,931 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:34:35,931 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:34:35,931 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:34:35,931 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:34:35,931 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:34:35,931 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-04-29 15:34:35,931 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:34:35,932 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:37:09,144 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-04-29 15:37:09,144 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-04-29 15:37:09,145 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-04-29 15:37:09,206 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : bzm - Arrivals Thread Group
+2024-04-29 15:37:09,206 INFO o.a.j.e.StandardJMeterEngine: Starting 0 threads for group bzm - Arrivals Thread Group.
+2024-04-29 15:37:09,206 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-04-29 15:37:09,208 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:37:09,208 INFO c.b.j.t.a.ArrivalsThreadGroup: Got first arrival
+2024-04-29 15:37:09,208 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-04-29 15:37:09,715 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:37:11,761 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:37:13,709 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:37:15,714 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:37:49,214 INFO c.b.j.t.a.ArrivalsThreadStarter: Duration limit reached, no more arrivals needed, had arrivals: 360
+2024-04-29 15:37:49,426 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-04-29 15:37:49,426 INFO c.b.j.t.a.ArrivalsThreadGroup: Done 332 arrivals, 329 completions, 0 abandonments
+2024-04-29 15:37:49,426 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:37:49,427 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:37:49,426 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:37:49,427 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:37:49,426 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:37:49,427 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:37:49,427 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:37:49,427 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-04-29 15:37:49,426 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:37:49,427 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:37:49,427 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:41:42,716 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-04-29 15:41:42,717 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-04-29 15:41:42,717 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-04-29 15:41:42,774 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : bzm - Arrivals Thread Group
+2024-04-29 15:41:42,774 INFO o.a.j.e.StandardJMeterEngine: Starting 0 threads for group bzm - Arrivals Thread Group.
+2024-04-29 15:41:42,774 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-04-29 15:41:42,776 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:41:42,776 INFO c.b.j.t.a.ArrivalsThreadGroup: Got first arrival
+2024-04-29 15:41:42,776 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-04-29 15:41:43,276 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:41:45,277 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:41:47,282 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:41:49,277 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:41:51,278 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-6
+2024-04-29 15:42:15,972 INFO o.a.j.g.a.Start: Shutting test down
+2024-04-29 15:42:15,976 WARN o.a.j.t.JMeterThread: Interrupting: bzm - Arrivals Thread Group-ThreadStarter 1-4 sampler: HTTP Request
+2024-04-29 15:42:15,977 WARN o.a.j.t.JMeterThread: Interrupting: bzm - Arrivals Thread Group-ThreadStarter 1-2 sampler: HTTP Request
+2024-04-29 15:42:15,978 WARN o.a.j.t.JMeterThread: Interrupting: bzm - Arrivals Thread Group-ThreadStarter 1-3 sampler: HTTP Request
+2024-04-29 15:42:15,979 WARN o.a.j.t.JMeterThread: Interrupting: bzm - Arrivals Thread Group-ThreadStarter 1-5 sampler: HTTP Request
+2024-04-29 15:42:15,980 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-6
+2024-04-29 15:42:15,980 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-6
+2024-04-29 15:42:15,981 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:42:15,982 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:42:15,982 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:42:15,983 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:42:15,984 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-04-29 15:42:15,984 INFO c.b.j.t.a.ArrivalsThreadGroup: Done 296 arrivals, 291 completions, 0 abandonments
+2024-04-29 15:42:15,984 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:42:15,984 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:42:15,984 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-04-29 15:42:15,987 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:42:15,987 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:42:15,987 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:42:15,988 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:42:18,747 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-04-29 15:42:18,748 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-04-29 15:42:18,748 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-04-29 15:42:18,798 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : bzm - Arrivals Thread Group
+2024-04-29 15:42:18,798 INFO o.a.j.e.StandardJMeterEngine: Starting 0 threads for group bzm - Arrivals Thread Group.
+2024-04-29 15:42:18,798 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-04-29 15:42:18,800 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:42:18,800 INFO c.b.j.t.a.ArrivalsThreadGroup: Got first arrival
+2024-04-29 15:42:18,800 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-04-29 15:42:19,052 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:42:19,300 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:42:21,050 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:42:21,300 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:42:23,050 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-6
+2024-04-29 15:42:23,300 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-7
+2024-04-29 15:42:56,157 INFO o.a.j.g.a.Start: Shutting test down
+2024-04-29 15:42:56,159 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:42:56,159 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:42:56,159 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-7
+2024-04-29 15:42:56,159 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:42:56,159 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:42:56,159 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-6
+2024-04-29 15:42:56,159 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:42:56,159 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:42:56,159 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:42:56,159 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:42:56,159 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-6
+2024-04-29 15:42:56,160 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-7
+2024-04-29 15:42:56,160 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:42:56,160 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:42:56,160 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-04-29 15:42:56,160 INFO c.b.j.t.a.ArrivalsThreadGroup: Done 674 arrivals, 667 completions, 0 abandonments
+2024-04-29 15:42:56,161 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-04-29 15:42:59,491 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-04-29 15:42:59,491 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-04-29 15:42:59,491 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-04-29 15:42:59,543 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : bzm - Arrivals Thread Group
+2024-04-29 15:42:59,543 INFO o.a.j.e.StandardJMeterEngine: Starting 0 threads for group bzm - Arrivals Thread Group.
+2024-04-29 15:42:59,543 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-04-29 15:42:59,544 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:42:59,544 INFO c.b.j.t.a.ArrivalsThreadGroup: Got first arrival
+2024-04-29 15:42:59,545 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-04-29 15:43:00,046 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:43:02,045 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:43:04,049 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:43:06,045 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:43:08,045 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-6
+2024-04-29 15:43:38,434 INFO o.a.j.g.a.Start: Shutting test down
+2024-04-29 15:43:38,436 WARN o.a.j.t.JMeterThread: Interrupting: bzm - Arrivals Thread Group-ThreadStarter 1-2 sampler: HTTP Request
+2024-04-29 15:43:38,437 WARN o.a.j.t.JMeterThread: Interrupting: bzm - Arrivals Thread Group-ThreadStarter 1-5 sampler: HTTP Request
+2024-04-29 15:43:38,438 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-6
+2024-04-29 15:43:38,438 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:43:38,438 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-6
+2024-04-29 15:43:38,438 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:43:38,438 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:43:38,438 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:43:38,438 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:43:38,438 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:43:38,442 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:43:38,442 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:43:38,442 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:43:38,442 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:43:38,443 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-04-29 15:43:38,443 INFO c.b.j.t.a.ArrivalsThreadGroup: Done 355 arrivals, 349 completions, 0 abandonments
+2024-04-29 15:43:38,443 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-04-29 15:44:01,024 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-04-29 15:44:01,024 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-04-29 15:44:01,025 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-04-29 15:44:01,074 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : bzm - Arrivals Thread Group
+2024-04-29 15:44:01,074 INFO o.a.j.e.StandardJMeterEngine: Starting 0 threads for group bzm - Arrivals Thread Group.
+2024-04-29 15:44:01,074 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-04-29 15:44:01,075 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:44:01,075 INFO c.b.j.t.a.ArrivalsThreadGroup: Got first arrival
+2024-04-29 15:44:01,075 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-04-29 15:44:01,327 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:44:01,585 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:44:03,330 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:44:03,580 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:44:05,325 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-6
+2024-04-29 15:44:05,592 INFO o.a.j.t.JMeterThread: Thread started: bzm - Arrivals Thread Group-ThreadStarter 1-7
+2024-04-29 15:44:41,096 INFO c.b.j.t.a.ArrivalsThreadStarter: Duration limit reached, no more arrivals needed, had arrivals: 720
+2024-04-29 15:44:41,285 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-04-29 15:44:41,285 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:44:41,285 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:44:41,285 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-1
+2024-04-29 15:44:41,285 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:44:41,285 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-5
+2024-04-29 15:44:41,285 INFO c.b.j.t.a.ArrivalsThreadGroup: Done 720 arrivals, 720 completions, 0 abandonments
+2024-04-29 15:44:41,285 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-6
+2024-04-29 15:44:41,285 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:44:41,286 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-6
+2024-04-29 15:44:41,286 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-4
+2024-04-29 15:44:41,286 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-04-29 15:44:41,285 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-2
+2024-04-29 15:44:41,285 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-7
+2024-04-29 15:44:41,285 INFO o.a.j.t.JMeterThread: Thread is done: bzm - Arrivals Thread Group-ThreadStarter 1-3
+2024-04-29 15:44:41,286 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-7
+2024-04-29 15:44:41,286 INFO o.a.j.t.JMeterThread: Thread finished: bzm - Arrivals Thread Group-ThreadStarter 1-3

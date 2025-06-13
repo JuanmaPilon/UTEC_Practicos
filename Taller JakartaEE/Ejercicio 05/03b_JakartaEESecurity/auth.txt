@@ -1,0 +1,3 @@
+# JMeter generated Authorization file
+	J	1			BASIC
+	usr1	1			BASIC

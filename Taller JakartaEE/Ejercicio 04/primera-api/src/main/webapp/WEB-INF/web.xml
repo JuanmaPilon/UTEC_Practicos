@@ -1,0 +1,60 @@
+<web-app version="6.0"
+	xmlns="https://jakarta.ee/xml/ns/jakartaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+	
+	<servlet>
+		<servlet-name>jakarta.ws.rs.core.Application</servlet-name>
+	</servlet>
+	
+		<!--  restricción de seguridad #1 -->
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>Mensajes autenticados</web-resource-name>
+			<url-pattern>/api/empleados/gerente/*</url-pattern>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>gerente</role-name> <!--  solo los usuarios con el rol gerente podrán acceder a la url -->
+		</auth-constraint>
+		<user-data-constraint>
+        	<transport-guarantee>CONFIDENTIAL</transport-guarantee>
+   		 </user-data-constraint>
+	</security-constraint>
+	
+		<!--  restricción de seguridad #2 -->
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>Mensajes autenticados</web-resource-name>
+			<url-pattern>/api/empleados/recursosHumanos/*</url-pattern>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>recursosHumanos</role-name> <!--  solo los usuarios con el rol RRHH podrán acceder a la url -->
+		</auth-constraint>
+		<user-data-constraint>
+        	<transport-guarantee>CONFIDENTIAL</transport-guarantee>
+   		 </user-data-constraint>
+	</security-constraint>
+	
+	
+	<login-config>
+		<auth-method>BASIC</auth-method> <!-- se abre un formulario en el browser
+		tener en cuenta de que hay otros tipos de autenticación, por ejemplo se 
+		puede indicaar que se abra un formulario de login específico  -->
+		<realm-name>ApplicationRealm</realm-name>
+	</login-config>
+	
+		<security-role>
+		<role-name>gerente</role-name> <!--  este rol tiene que estar definido en el servidor -->
+	</security-role>
+	
+	<security-role>
+		<role-name>recursosHumanos</role-name> <!--  este rol tiene que estar definido en el servidor -->
+	</security-role>
+	
+	
+	<servlet-mapping>
+		<servlet-name>jakarta.ws.rs.core.Application</servlet-name>
+		<url-pattern>/api/*</url-pattern>
+	</servlet-mapping>
+	
+</web-app>

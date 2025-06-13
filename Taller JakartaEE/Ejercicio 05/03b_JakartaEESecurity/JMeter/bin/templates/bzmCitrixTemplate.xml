@@ -1,0 +1,24 @@
+<!DOCTYPE templates SYSTEM "templates.dtd">
+
+<templates>
+	<template isTestPlan="true">
+		<name>BlazeMeter Citrix Recording</name>
+		<fileName>/bin/templates/citrixRecordingTemplate.jmx</fileName>
+		<description><![CDATA[
+        <h1>Template you can use to record a Citrix application called through ICA Client</h1>
+        <p>This template is provided by Citrix Plugin which allows load testing Citrix Applications.<br/>
+        Ensure you read Pre-requisites and User Manual before using the plugin. See <b>Useful links</b> below.
+        Once the new plan is created update configuration properties on the Citrix Recorder element.
+        </p>
+        <h2>Useful links</h2>
+            <ul>
+                <li><a href="https://github.com/Blazemeter/CitrixPlugin/blob/master/PRE_REQUISITES.md" >Pre-requisites</a></li>
+                <li><a href="https://github.com/Blazemeter/CitrixPlugin/blob/master/SETUP.md" >Setup</a></li>
+                <li><a href="https://github.com/Blazemeter/CitrixPlugin/blob/master/README.md" >User manual</a></li>
+                <li><a href="https://github.com/Blazemeter/CitrixPlugin/blob/master/TROUBLESHOOTING.md" >Troubleshooting</a></li>
+            </ul>
+        ]]></description>
+
+	</template>
+
+</templates>

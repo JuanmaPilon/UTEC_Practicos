@@ -1,0 +1,14 @@
+Parte a)
+
+En los casos de prueba la inyeccion de dependencia se realiza utilizando @Inject, qu epermite al evento publicador obtener la instancia del evento
+, la cual se utiliza para publicarlos. Tambien los observers estan a la escucha de algun event utilizando @Observes, que se triggerean cuando son
+notificados y ejecutan su metodo correspondiente.
+
+Parte b)
+
+Weld es una implementacion especifica de CDI (Contexts and Dependecy Injection) que utiliza en los contenedores de aplicaciones de JavaEE y
+JakartaEE para dar funcionalidades de inyeccion de dependencias y gestion de componentes. En estos ejemplos se usa Weld y el mismo se ecarga de inyectar dependencias automaticamente, administrar los beans y permitir el observer de eventos.
+
+Las pruebas que existen como ejemplo de estos ejercicios, son mas aisladas, son pruebas unitarias que no dependen del enterno del servidor de
+aplicaciones, por ende no se necesita un servidor levantado en funcionamiento. Con respecto a las inyecciones de dependencias y gestion
+de componentes, puede probarse en un entorno de testeo sin necesidad de un servidor.
