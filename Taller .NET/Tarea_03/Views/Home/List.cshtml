@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Tarea_03.Models.Libro>
+
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>List</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Titulo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Autor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaPublicacion)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Titulo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Autor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaPublicacion)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ISBN">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ISBN">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ISBN">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
